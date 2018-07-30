@@ -1,0 +1,1424 @@
+07:03:22.969 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:03:22.998 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:03:22.999 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:22.999 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:22.999 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:22.999 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:03:22.999 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:03:23.000 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:03:23.000 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:03:23.000 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:03:23.000 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:03:23.001 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.001 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:03:23.001 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.001 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:03:23.001 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:03:23.002 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:03:23.002 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:03:23.002 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\config.properties) SPECIFIED
+07:03:23.002 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:03:23.003 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:03:23.003 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:03:23.003 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:03:23.003 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:03:23.004 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:03:23.004 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:03:23.004 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\)
+07:03:23.005 INFO  accelarators.Base -setup -creating folders for screen shots
+07:03:23.139 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:03:23.139 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:03:23.139 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:23.139 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:23.141 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:23.141 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:03:23.141 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(FlipKart.html)
+07:03:23.142 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:03:23.142 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:03:23.142 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(FlipKart.html)
+
+07:03:23.142 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:03:23.142 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.143 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:03:23.143 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.143 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:03:23.288 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(FlipKart.html)
+07:03:23.288 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:03:23.288 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:03:23.289 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:03:23.289 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:03:23.290 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:03:23.290 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:03:23.290 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(FlipKart.html)
+07:03:23.290 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:03:23.296 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:03:23.297 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:03:23.509 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:03:23.509 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(FlipKart.html) AND APPEND STATUS(false)
+07:03:23.510 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:03:23.510 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7) IN EXTENT REPORT
+07:03:23.510 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:03:23.511 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : 1.8) IN EXTENT REPORT
+07:03:23.511 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:03:23.511 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : 3.4) IN EXTENT REPORT
+07:03:23.511 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:03:23.529 INFO  utilities.DataProviderRepository -dataProviderMethod -INTEND TO READ THE TEST DATA USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:03:23.561 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -INTEND TO READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY
+07:03:23.562 INFO  utilities.Excel -getToSheet -INTEND TO READ THE SPECIFIED EXCEL SHEET
+07:03:23.562 INFO  utilities.Excel -getToFile -INTEND TO READ THE SPECIFIED EXCEL FILE
+07:03:23.563 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:23.563 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:23.564 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:23.564 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:03:23.565 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(\GmailTestData.xlsx)
+07:03:23.565 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:03:23.566 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:03:23.566 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.xlsx) FROM THE FILE NAME(\GmailTestData.xlsx)
+
+07:03:23.566 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:03:23.567 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.568 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:03:23.568 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.569 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:03:23.570 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:03:23.571 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:03:23.571 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:03:23.590 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\TestData\GmailTestData.xlsx) SPECIFIED
+07:03:23.590 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:03:23.591 INFO  utilities.Excel -createWorkBookInstance -INTEND TO CREATE AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:03:23.591 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:23.592 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:03:23.592 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:25.550 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN INSTANCE OF XSSFWORKBOOK CLASS
+07:03:25.550 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:03:25.550 INFO  utilities.Excel -getToFile -SUCCESSFULLY READ THE EXCEL FILE(\GmailTestData.xlsx)
+07:03:25.550 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:25.551 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:25.551 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:25.551 INFO  utilities.Excel -sheetPresent -INTEND TO VERIFY WHETHER THE SPECIFIED EXCEL SHEET IS PRESENT OR NOT
+07:03:25.564 INFO  utilities.Excel -sheetPresent -(TestData) IS PRESENT
+07:03:25.565 INFO  utilities.Excel -sheetPresent -SUCCESSFULLY VERIFIED WHETHER THE EXCEL SHEET(TestData) IS PRESENT OR NOT
+07:03:25.565 INFO  utilities.Excel -getToSheet -SUCCESSFULLY READ THE EXCEL SHEET(TestData)
+07:03:25.572 INFO  utilities.Excel -getCellValue -INTEND TO READ THE CELL VALUE
+07:03:25.590 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:25.591 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:03:25.591 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:03:25.626 INFO  utilities.Excel -getCellValue -SUCCESSFULLY CREATED AN INSTANCE OF XSSFFORMULAEVALUATOR
+07:03:25.639 INFO  utilities.Excel -getCellValue -SUCCESSFULLY READ THE CELL VALUE(userName~9849530029
+password~satish@123)
+07:03:25.640 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -SUCCESSFULLY READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY FROM THE EXCEL SHEET(TestData) IN THE EXCEL FILE(\GmailTestData.xlsx) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\TestData)
+07:03:25.640 INFO  utilities.DataProviderRepository -dataProviderMethod -SUCCESSFULLY READ THE TEST DATA FOR (public void com.flipkart.testScripts.FlipKartTestCase.FlipKart_TC1(java.lang.String) throws java.lang.InterruptedException,com.flipkart.utilities.MyOwnException) SECURITY TYPE USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:03:25.665 INFO  testScripts.FlipKartTestCase -FlipKart_TC1 -METHOD(IU_TC1) EXECUTION STARTED SUCCESSFULLY
+07:03:25.665 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTION STARTED SUCCESSFULLY
+07:03:25.665 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTION STARTED SUCCESSFULLY
+07:03:25.702 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTED SUCCESSFULLY
+07:03:25.702 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTED SUCCESSFULLY
+07:03:25.702 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:03:25.702 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:25.703 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:25.703 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:25.706 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(HealthChoice_Testing) IN EXTENT REPORT
+07:03:25.706 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:03:25.757 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:03:25.758 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:03:25.863 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:03:37.044 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -Initiated Chrome session
+07:03:38.334 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:03:48.473 INFO  pageObjects.FlipKartLoginPage -login -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:03:53.844 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:03:53.883 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:53.883 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:53.883 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:54.105 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (90) SECONDS
+07:03:54.174 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:03:54.175 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:03:54.230 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED
+07:03:54.246 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED OR NOT
+07:03:54.246 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:03:54.291 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED
+07:03:54.306 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED OR NOT
+07:03:54.306 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:54.306 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:54.306 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:54.764 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(9849530029) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input])
+07:03:54.764 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:03:54.764 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:03:54.871 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED
+07:03:54.903 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED OR NOT
+07:03:54.904 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:03:54.968 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED
+07:03:54.988 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED OR NOT
+07:03:54.988 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:54.988 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:54.988 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:55.345 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(satish@123) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (b3340f6ec6596b61308012c48e6aaab9)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input])
+07:03:55.345 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:03:56.335 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:03:56.336 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:03:56.336 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:56.336 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:56.337 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:56.337 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:56.338 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:56.339 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:56.339 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:03:56.340 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:03:56.340 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:03:56.340 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:03:56.341 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_03_23_004\1_HelahChoiceLogin_Screen.png) IS PRESENT
+07:03:56.342 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:03:56.371 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(INFO) WITH DESCRIPTION(Login To Health Choice is initiated successfully) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_03_23_004\1_HelahChoiceLogin_Screen.png) IN EXTENT REPORT
+07:04:11.783 ERROR pageObjects.FlipKartLoginPage -login -no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir5384_15887}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b3340f6ec6596b61308012c48e6aaab9
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+07:04:11.785 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:04:11.785 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:11.786 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:11.786 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:11.787 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:11.787 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:11.787 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:11.791 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>Login To ePortal Is Not Successful</b></font><br />no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir5384_15887}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b3340f6ec6596b61308012c48e6aaab9
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}<br />) IN EXTENT REPORT
+07:04:11.792 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:04:12.335 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:04:12.336 ERROR pageObjects.FlipKartWorkFlow -FlipKart_Login -UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir5384_15887}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b3340f6ec6596b61308012c48e6aaab9
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+
+07:04:12.336 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:04:12.336 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:12.336 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:12.337 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:12.337 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:12.337 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:12.337 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:12.338 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir5384_15887}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b3340f6ec6596b61308012c48e6aaab9
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+<br />) IN EXTENT REPORT
+07:04:12.338 ERROR testScripts.FlipKartTestCase -FlipKart_TC1 -UNABLE TO INITIATE THE login PROCESS 
+UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir5384_15887}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b3340f6ec6596b61308012c48e6aaab9
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+
+
+07:04:12.343 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:04:12.347 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:04:12.786 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:04:12.786 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:04:12.786 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:12.787 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:12.787 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:12.787 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:12.787 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:12.787 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:12.787 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:12.788 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:12.788 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:12.788 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:04:12.788 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_03_23_004\1_Login Failed.png) IS PRESENT
+07:04:12.788 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:04:12.789 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(Listing Process And IPO Process Is Not Successful) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_03_23_004\1_Login Failed.png) IN EXTENT REPORT
+07:04:12.789 INFO  utilities.Report -writeContents -INTEND TO WRITE ALL THE CONENTS INTO EXTENT REPORT
+07:04:13.331 INFO  utilities.Report -writeContents -SUCCESSFULY WROTE ALL THE CONENTS INTO EXTENT REPORT
+07:04:13.331 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTED SUCCESSFULLY
+07:04:13.332 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:04:13.332 INFO  accelarators.Base -close -End of Executing after class stuff
+07:04:13.333 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+07:04:45.444 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:04:45.453 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:04:45.453 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:45.453 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:45.453 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:45.454 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:04:45.454 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:04:45.454 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:04:45.454 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:04:45.454 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:04:45.454 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:04:45.455 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.455 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:04:45.455 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.455 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:04:45.455 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:04:45.456 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:04:45.456 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:04:45.456 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\config.properties) SPECIFIED
+07:04:45.456 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:04:45.457 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:04:45.457 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:04:45.457 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:04:45.457 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:04:45.457 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:04:45.458 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:04:45.458 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\)
+07:04:45.458 INFO  accelarators.Base -setup -creating folders for screen shots
+07:04:45.476 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:04:45.476 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:04:45.476 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:45.476 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:45.477 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:45.477 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:04:45.477 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(FlipKart.html)
+07:04:45.477 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:04:45.477 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:04:45.477 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(FlipKart.html)
+
+07:04:45.478 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:04:45.478 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.478 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:04:45.478 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.478 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:04:45.539 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(FlipKart.html)
+07:04:45.540 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:04:45.540 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:04:45.540 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:04:45.540 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:04:45.541 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:04:45.541 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:04:45.541 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(FlipKart.html)
+07:04:45.542 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:04:45.548 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:04:45.548 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:04:45.664 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:04:45.664 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(FlipKart.html) AND APPEND STATUS(false)
+07:04:45.665 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:04:45.665 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7) IN EXTENT REPORT
+07:04:45.666 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:04:45.666 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : 1.8) IN EXTENT REPORT
+07:04:45.666 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:04:45.666 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : 3.4) IN EXTENT REPORT
+07:04:45.666 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:04:45.677 INFO  utilities.DataProviderRepository -dataProviderMethod -INTEND TO READ THE TEST DATA USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:04:45.680 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -INTEND TO READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY
+07:04:45.681 INFO  utilities.Excel -getToSheet -INTEND TO READ THE SPECIFIED EXCEL SHEET
+07:04:45.681 INFO  utilities.Excel -getToFile -INTEND TO READ THE SPECIFIED EXCEL FILE
+07:04:45.681 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:45.681 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:45.681 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:45.682 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:04:45.682 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(\GmailTestData.xlsx)
+07:04:45.682 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:04:45.682 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:04:45.682 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.xlsx) FROM THE FILE NAME(\GmailTestData.xlsx)
+
+07:04:45.682 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:04:45.683 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.683 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:04:45.683 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.683 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:04:45.683 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:04:45.683 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:04:45.684 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:04:45.684 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\TestData\GmailTestData.xlsx) SPECIFIED
+07:04:45.684 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:04:45.684 INFO  utilities.Excel -createWorkBookInstance -INTEND TO CREATE AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:04:45.685 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:45.685 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:04:45.685 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:46.559 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN INSTANCE OF XSSFWORKBOOK CLASS
+07:04:46.560 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:04:46.560 INFO  utilities.Excel -getToFile -SUCCESSFULLY READ THE EXCEL FILE(\GmailTestData.xlsx)
+07:04:46.560 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:46.560 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:46.561 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:46.561 INFO  utilities.Excel -sheetPresent -INTEND TO VERIFY WHETHER THE SPECIFIED EXCEL SHEET IS PRESENT OR NOT
+07:04:46.562 INFO  utilities.Excel -sheetPresent -(TestData) IS PRESENT
+07:04:46.563 INFO  utilities.Excel -sheetPresent -SUCCESSFULLY VERIFIED WHETHER THE EXCEL SHEET(TestData) IS PRESENT OR NOT
+07:04:46.563 INFO  utilities.Excel -getToSheet -SUCCESSFULLY READ THE EXCEL SHEET(TestData)
+07:04:46.563 INFO  utilities.Excel -getCellValue -INTEND TO READ THE CELL VALUE
+07:04:46.571 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:46.571 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:04:46.571 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:04:46.585 INFO  utilities.Excel -getCellValue -SUCCESSFULLY CREATED AN INSTANCE OF XSSFFORMULAEVALUATOR
+07:04:46.597 INFO  utilities.Excel -getCellValue -SUCCESSFULLY READ THE CELL VALUE(userName~9849530029
+password~satish@123)
+07:04:46.597 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -SUCCESSFULLY READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY FROM THE EXCEL SHEET(TestData) IN THE EXCEL FILE(\GmailTestData.xlsx) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\TestData)
+07:04:46.598 INFO  utilities.DataProviderRepository -dataProviderMethod -SUCCESSFULLY READ THE TEST DATA FOR (public void com.flipkart.testScripts.FlipKartTestCase.FlipKart_TC1(java.lang.String) throws java.lang.InterruptedException,com.flipkart.utilities.MyOwnException) SECURITY TYPE USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:04:46.608 INFO  testScripts.FlipKartTestCase -FlipKart_TC1 -METHOD(IU_TC1) EXECUTION STARTED SUCCESSFULLY
+07:04:46.608 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTION STARTED SUCCESSFULLY
+07:04:46.608 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTION STARTED SUCCESSFULLY
+07:04:46.625 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTED SUCCESSFULLY
+07:04:46.626 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTED SUCCESSFULLY
+07:04:46.626 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:04:46.626 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:04:46.626 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:04:46.626 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:04:46.630 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(HealthChoice_Testing) IN EXTENT REPORT
+07:04:46.630 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:04:46.636 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:04:46.636 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:04:46.661 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:04:49.805 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -Initiated Chrome session
+07:04:53.866 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:05:01.674 INFO  pageObjects.FlipKartLoginPage -login -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:05:06.676 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:05:06.683 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:06.685 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:06.686 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:06.754 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (90) SECONDS
+07:05:06.757 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:05:06.758 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:05:06.800 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED
+07:05:06.816 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED OR NOT
+07:05:06.816 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:05:06.859 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED
+07:05:06.875 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED OR NOT
+07:05:06.875 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:06.875 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:06.875 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:07.160 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(9849530029) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input])
+07:05:07.161 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:05:07.161 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:05:07.224 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED
+07:05:07.241 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED OR NOT
+07:05:07.242 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:05:07.293 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED
+07:05:07.312 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED OR NOT
+07:05:07.312 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:07.312 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:07.312 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:07.657 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(satish@123) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (1be48ea46e6a805a69f9db15ae561146)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input])
+07:05:07.658 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:05:08.097 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:05:08.097 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:05:08.097 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:08.097 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:08.097 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:08.097 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:08.098 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:08.098 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:08.098 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:08.098 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:08.098 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:08.098 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:05:08.099 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_04_45_458\1_HelahChoiceLogin_Screen.png) IS PRESENT
+07:05:08.099 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:05:08.108 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(INFO) WITH DESCRIPTION(Login To Health Choice is initiated successfully) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_04_45_458\1_HelahChoiceLogin_Screen.png) IN EXTENT REPORT
+07:05:23.357 ERROR pageObjects.FlipKartLoginPage -login -no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4536_3219}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1be48ea46e6a805a69f9db15ae561146
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+07:05:23.358 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:05:23.358 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:23.358 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:23.358 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:23.359 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:23.359 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:23.359 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:23.360 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>Login To ePortal Is Not Successful</b></font><br />no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4536_3219}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1be48ea46e6a805a69f9db15ae561146
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}<br />) IN EXTENT REPORT
+07:05:23.361 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:05:23.848 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:05:23.849 ERROR pageObjects.FlipKartWorkFlow -FlipKart_Login -UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4536_3219}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1be48ea46e6a805a69f9db15ae561146
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+
+07:05:23.849 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:05:23.849 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:23.849 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:23.849 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:23.850 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:23.850 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:23.850 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:23.850 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4536_3219}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1be48ea46e6a805a69f9db15ae561146
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+<br />) IN EXTENT REPORT
+07:05:23.851 ERROR testScripts.FlipKartTestCase -FlipKart_TC1 -UNABLE TO INITIATE THE login PROCESS 
+UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4536_3219}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1be48ea46e6a805a69f9db15ae561146
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[2]/div[1]/div/div[1]/div/div/div[2]/a[1]}
+
+
+07:05:23.856 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:05:23.857 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:05:24.319 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:05:24.319 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:05:24.319 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:24.319 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:24.320 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:24.320 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:24.320 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:24.320 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:24.320 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:05:24.320 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:05:24.321 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:05:24.321 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:05:24.321 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_04_45_458\1_Login Failed.png) IS PRESENT
+07:05:24.321 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:05:24.322 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(Listing Process And IPO Process Is Not Successful) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_04_45_458\1_Login Failed.png) IN EXTENT REPORT
+07:05:24.322 INFO  utilities.Report -writeContents -INTEND TO WRITE ALL THE CONENTS INTO EXTENT REPORT
+07:05:24.765 INFO  utilities.Report -writeContents -SUCCESSFULY WROTE ALL THE CONENTS INTO EXTENT REPORT
+07:05:24.766 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTED SUCCESSFULLY
+07:05:24.767 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:05:24.767 INFO  accelarators.Base -close -End of Executing after class stuff
+07:05:24.767 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+07:06:53.466 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:06:53.474 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:06:53.475 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:06:53.475 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:06:53.475 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:06:53.475 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:06:53.476 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:06:53.476 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:06:53.476 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:06:53.476 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:06:53.476 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:06:53.477 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.477 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:06:53.477 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.477 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:06:53.477 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:06:53.478 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:06:53.478 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:06:53.479 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\config.properties) SPECIFIED
+07:06:53.480 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:06:53.480 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:06:53.480 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:06:53.480 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:06:53.481 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:06:53.481 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:06:53.481 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:06:53.481 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\)
+07:06:53.483 INFO  accelarators.Base -setup -creating folders for screen shots
+07:06:53.504 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:06:53.505 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:06:53.505 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:06:53.505 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:06:53.505 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:06:53.505 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:06:53.506 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(FlipKart.html)
+07:06:53.506 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:06:53.506 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:06:53.506 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(FlipKart.html)
+
+07:06:53.506 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:06:53.506 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.507 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:06:53.507 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.507 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:06:53.567 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(FlipKart.html)
+07:06:53.568 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:06:53.568 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:06:53.568 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:06:53.568 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:06:53.569 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:06:53.569 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:06:53.569 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(FlipKart.html)
+07:06:53.569 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:06:53.576 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:06:53.577 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:06:53.688 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:06:53.688 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(FlipKart.html) AND APPEND STATUS(false)
+07:06:53.688 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:06:53.689 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7) IN EXTENT REPORT
+07:06:53.689 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:06:53.689 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : 1.8) IN EXTENT REPORT
+07:06:53.689 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:06:53.690 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : 3.4) IN EXTENT REPORT
+07:06:53.690 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:06:53.699 INFO  utilities.DataProviderRepository -dataProviderMethod -INTEND TO READ THE TEST DATA USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:06:53.702 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -INTEND TO READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY
+07:06:53.702 INFO  utilities.Excel -getToSheet -INTEND TO READ THE SPECIFIED EXCEL SHEET
+07:06:53.702 INFO  utilities.Excel -getToFile -INTEND TO READ THE SPECIFIED EXCEL FILE
+07:06:53.702 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:06:53.703 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:06:53.703 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:06:53.703 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:06:53.703 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(\GmailTestData.xlsx)
+07:06:53.703 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:06:53.703 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:06:53.704 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.xlsx) FROM THE FILE NAME(\GmailTestData.xlsx)
+
+07:06:53.704 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:06:53.704 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.704 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:06:53.704 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.704 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:06:53.705 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:06:53.705 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:06:53.705 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:06:53.705 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\TestData\GmailTestData.xlsx) SPECIFIED
+07:06:53.705 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:06:53.706 INFO  utilities.Excel -createWorkBookInstance -INTEND TO CREATE AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:06:53.706 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:53.706 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:06:53.706 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:54.437 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN INSTANCE OF XSSFWORKBOOK CLASS
+07:06:54.438 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:06:54.438 INFO  utilities.Excel -getToFile -SUCCESSFULLY READ THE EXCEL FILE(\GmailTestData.xlsx)
+07:06:54.438 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:06:54.438 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:06:54.438 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:06:54.438 INFO  utilities.Excel -sheetPresent -INTEND TO VERIFY WHETHER THE SPECIFIED EXCEL SHEET IS PRESENT OR NOT
+07:06:54.440 INFO  utilities.Excel -sheetPresent -(TestData) IS PRESENT
+07:06:54.440 INFO  utilities.Excel -sheetPresent -SUCCESSFULLY VERIFIED WHETHER THE EXCEL SHEET(TestData) IS PRESENT OR NOT
+07:06:54.440 INFO  utilities.Excel -getToSheet -SUCCESSFULLY READ THE EXCEL SHEET(TestData)
+07:06:54.441 INFO  utilities.Excel -getCellValue -INTEND TO READ THE CELL VALUE
+07:06:54.448 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:54.449 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:06:54.449 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:06:54.463 INFO  utilities.Excel -getCellValue -SUCCESSFULLY CREATED AN INSTANCE OF XSSFFORMULAEVALUATOR
+07:06:54.475 INFO  utilities.Excel -getCellValue -SUCCESSFULLY READ THE CELL VALUE(userName~9849530029
+password~satish@123)
+07:06:54.475 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -SUCCESSFULLY READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY FROM THE EXCEL SHEET(TestData) IN THE EXCEL FILE(\GmailTestData.xlsx) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\TestData)
+07:06:54.476 INFO  utilities.DataProviderRepository -dataProviderMethod -SUCCESSFULLY READ THE TEST DATA FOR (public void com.flipkart.testScripts.FlipKartTestCase.FlipKart_TC1(java.lang.String) throws java.lang.InterruptedException,com.flipkart.utilities.MyOwnException) SECURITY TYPE USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:06:54.487 INFO  testScripts.FlipKartTestCase -FlipKart_TC1 -METHOD(IU_TC1) EXECUTION STARTED SUCCESSFULLY
+07:06:54.487 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTION STARTED SUCCESSFULLY
+07:06:54.488 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTION STARTED SUCCESSFULLY
+07:06:54.509 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTED SUCCESSFULLY
+07:06:54.509 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTED SUCCESSFULLY
+07:06:54.509 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:06:54.509 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:06:54.510 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:06:54.510 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:06:54.513 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(HealthChoice_Testing) IN EXTENT REPORT
+07:06:54.513 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:06:54.519 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:06:54.520 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:06:54.544 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:06:57.725 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -Initiated Chrome session
+07:07:00.590 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:07:09.311 INFO  pageObjects.FlipKartLoginPage -login -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:07:14.315 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:07:14.328 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:14.329 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:14.330 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:14.416 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (90) SECONDS
+07:07:14.419 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:07:14.419 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:14.462 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED
+07:07:14.477 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED OR NOT
+07:07:14.477 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:14.524 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED
+07:07:14.541 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED OR NOT
+07:07:14.541 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:14.541 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:14.541 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:14.851 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(9849530029) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input])
+07:07:14.852 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:07:14.852 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:14.910 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED
+07:07:14.927 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED OR NOT
+07:07:14.928 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:14.977 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED
+07:07:14.991 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED OR NOT
+07:07:14.992 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:14.992 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:14.992 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:15.450 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(satish@123) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input])
+07:07:15.451 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:07:15.950 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:07:15.950 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:07:15.951 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:15.951 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:15.951 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:15.951 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:15.952 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:15.952 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:15.952 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:15.952 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:15.952 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:15.952 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:07:15.953 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\1_HelahChoiceLogin_Screen.png) IS PRESENT
+07:07:15.953 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:07:15.966 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(INFO) WITH DESCRIPTION(Login To Health Choice is initiated successfully) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\1_HelahChoiceLogin_Screen.png) IN EXTENT REPORT
+07:07:21.207 INFO  pageObjects.FlipKartLoginPage -login -METHOD(login) EXECUTED SUCCESSFULLY
+07:07:21.208 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:07:21.660 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:07:21.661 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:07:21.661 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:21.661 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:21.661 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:21.661 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:21.661 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:21.662 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:21.662 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:21.662 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:21.662 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:21.662 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:07:21.662 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IS PRESENT
+07:07:21.662 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:07:21.664 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(PASS) WITH DESCRIPTION(Successfully logged into Health Choice) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IN EXTENT REPORT
+07:07:21.664 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTED SUCCESSFULLY
+07:07:21.664 INFO  pageObjects.FlipKartWorkFlow -SelectMobile -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:07:21.666 INFO  pageObjects.FlipKartHomePage -SelectMobile -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:07:21.666 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:07:21.667 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:21.739 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS DISPLAYED
+07:07:21.760 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS DISPLAYED OR NOT
+07:07:21.761 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:21.866 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS ENABLED
+07:07:21.906 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS ENABLED OR NOT
+07:07:22.097 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a])
+07:07:22.097 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:07:22.097 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:22.098 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:22.098 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:22.462 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (60) SECONDS
+07:07:22.463 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:07:22.463 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:22.535 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS DISPLAYED
+07:07:22.553 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS DISPLAYED OR NOT
+07:07:22.554 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:22.601 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS ENABLED
+07:07:22.618 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS ENABLED OR NOT
+07:07:22.866 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a])
+07:07:22.866 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:07:22.866 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:22.867 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:22.867 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:24.534 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (60) SECONDS
+07:07:24.534 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:07:24.535 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:24.579 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS DISPLAYED
+07:07:24.596 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS DISPLAYED OR NOT
+07:07:24.596 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:24.641 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS ENABLED
+07:07:24.663 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS ENABLED OR NOT
+07:07:29.901 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a])
+07:07:34.901 INFO  pageObjects.FlipKartHomePage -SelectMobile -METHOD(login) EXECUTED SUCCESSFULLY
+07:07:34.901 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:07:35.390 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:07:35.391 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:07:35.391 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:35.391 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:35.391 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:35.392 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:35.392 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:35.392 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:35.392 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:35.392 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:35.392 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:35.393 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:07:35.393 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IS PRESENT
+07:07:35.393 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:07:35.393 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(PASS) WITH DESCRIPTION(Successfully logged into Health Choice) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IN EXTENT REPORT
+07:07:35.394 INFO  pageObjects.FlipKartWorkFlow -SelectMobile -WORKFLOW(newTrackerListingProcess) EXECUTED SUCCESSFULLY
+07:07:35.394 INFO  pageObjects.FlipKartWorkFlow -AddToCart -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:07:35.502 INFO  pageObjects.FlipKartGotoCartPage -AddToCart -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:07:35.822 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:07:35.822 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:36.987 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button]) IS DISPLAYED
+07:07:37.005 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button]) IS DISPLAYED OR NOT
+07:07:37.005 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:37.068 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button]) IS ENABLED
+07:07:37.085 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button]) IS ENABLED OR NOT
+07:07:37.338 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button])
+07:07:37.379 INFO  pageObjects.FlipKartGotoCartPage -AddToCart -METHOD(login) EXECUTED SUCCESSFULLY
+07:07:37.379 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:07:37.850 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:07:37.850 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:07:37.850 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:07:37.851 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:07:37.852 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:07:37.852 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:07:37.852 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IS PRESENT
+07:07:37.852 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:07:37.853 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(PASS) WITH DESCRIPTION(Successfully logged into Health Choice) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IN EXTENT REPORT
+07:07:37.853 INFO  pageObjects.FlipKartWorkFlow -AddToCart -WORKFLOW(newTrackerListingProcess) EXECUTED SUCCESSFULLY
+07:07:37.853 INFO  pageObjects.FlipKartWorkFlow -PlaceOrder -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:07:37.854 INFO  pageObjects.FlipKartGotoCartPage -PlaceOrder -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:07:37.894 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:07:37.894 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:39.045 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[1]/div/div[3]/div/div/form/button]) IS DISPLAYED
+07:07:39.062 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[1]/div/div[3]/div/div/form/button]) IS DISPLAYED OR NOT
+07:07:39.062 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:39.150 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[1]/div/div[3]/div/div/form/button]) IS ENABLED
+07:07:39.180 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='container']/div/div[1]/div/div[1]/div/div[3]/div/div/form/button]) IS ENABLED OR NOT
+07:07:58.491 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div[1]/div/div[3]/div/div/form/button')
+07:07:58.492 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:07:58.492 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:07:58.575 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='CNTCT61A0C9AAA391410691F10FC6E']/button]) IS DISPLAYED
+07:07:58.588 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='CNTCT61A0C9AAA391410691F10FC6E']/button]) IS DISPLAYED OR NOT
+07:07:58.589 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:07:58.628 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='CNTCT61A0C9AAA391410691F10FC6E']/button]) IS ENABLED
+07:07:58.642 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='CNTCT61A0C9AAA391410691F10FC6E']/button]) IS ENABLED OR NOT
+07:08:08.847 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='CNTCT61A0C9AAA391410691F10FC6E']/button')
+07:08:08.848 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:08:08.848 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:08:08.917 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='to-payment']/button]) IS DISPLAYED
+07:08:08.930 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='to-payment']/button]) IS DISPLAYED OR NOT
+07:08:08.931 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:08:08.971 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='to-payment']/button]) IS ENABLED
+07:08:08.984 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='to-payment']/button]) IS ENABLED OR NOT
+07:08:09.130 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (c3ede2560a9d7678903252b7331bb6c2)] -> xpath: //*[@id='to-payment']/button])
+07:08:09.130 INFO  pageObjects.FlipKartGotoCartPage -PlaceOrder -METHOD(login) EXECUTED SUCCESSFULLY
+07:08:09.130 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:08:09.490 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:08:09.491 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:08:09.491 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:08:09.491 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:08:09.491 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:08:09.491 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:08:09.491 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:08:09.492 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:08:09.492 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:08:09.492 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:08:09.492 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:08:09.492 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:08:09.492 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IS PRESENT
+07:08:09.493 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:08:09.493 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(PASS) WITH DESCRIPTION(Successfully logged into Health Choice) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_06_53_482\2_HealthChoiceHomePage.png) IN EXTENT REPORT
+07:08:09.493 INFO  pageObjects.FlipKartWorkFlow -PlaceOrder -WORKFLOW(newTrackerListingProcess) EXECUTED SUCCESSFULLY
+07:08:09.493 INFO  testScripts.FlipKartTestCase -FlipKart_TC1 -METHOD(IU_TC1) EXECUTED SUCCESSFULLY
+07:08:09.496 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:08:09.497 INFO  utilities.Report -writeContents -INTEND TO WRITE ALL THE CONENTS INTO EXTENT REPORT
+07:08:09.910 INFO  utilities.Report -writeContents -SUCCESSFULY WROTE ALL THE CONENTS INTO EXTENT REPORT
+07:08:09.911 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTED SUCCESSFULLY
+07:08:09.911 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:08:09.912 INFO  accelarators.Base -close -End of Executing after class stuff
+07:08:09.912 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+07:12:34.093 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:12:34.137 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:12:34.138 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:12:34.138 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:12:34.139 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:12:34.139 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:12:34.139 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:12:34.139 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:12:34.140 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:12:34.140 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:12:34.140 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:12:34.140 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.140 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:12:34.140 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.141 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:12:34.143 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:12:34.143 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:12:34.143 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:12:34.144 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\config.properties) SPECIFIED
+07:12:34.144 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:12:34.144 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:12:34.144 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:12:34.145 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:12:34.145 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:12:34.145 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:12:34.146 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:12:34.146 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\)
+07:12:34.147 INFO  accelarators.Base -setup -creating folders for screen shots
+07:12:34.173 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:12:34.173 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:12:34.173 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:12:34.173 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:12:34.175 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:12:34.175 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:12:34.176 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(FlipKart.html)
+07:12:34.176 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:12:34.176 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:12:34.176 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(FlipKart.html)
+
+07:12:34.176 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:12:34.176 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.177 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:12:34.177 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.177 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:12:34.389 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(FlipKart.html)
+07:12:34.389 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:12:34.390 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:12:34.390 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:12:34.390 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:12:34.391 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:12:34.392 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:12:34.392 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(FlipKart.html)
+07:12:34.392 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:12:34.422 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:12:34.422 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:12:34.713 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:12:34.713 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(FlipKart.html) AND APPEND STATUS(false)
+07:12:34.714 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:12:34.735 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7) IN EXTENT REPORT
+07:12:34.735 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:12:34.736 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : 1.8) IN EXTENT REPORT
+07:12:34.736 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:12:34.736 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : 3.4) IN EXTENT REPORT
+07:12:34.736 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:12:34.748 INFO  utilities.DataProviderRepository -dataProviderMethod -INTEND TO READ THE TEST DATA USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:12:34.774 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -INTEND TO READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY
+07:12:34.774 INFO  utilities.Excel -getToSheet -INTEND TO READ THE SPECIFIED EXCEL SHEET
+07:12:34.775 INFO  utilities.Excel -getToFile -INTEND TO READ THE SPECIFIED EXCEL FILE
+07:12:34.775 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:12:34.775 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:12:34.775 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:12:34.775 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:12:34.775 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(\GmailTestData.xlsx)
+07:12:34.776 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:12:34.777 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:12:34.777 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.xlsx) FROM THE FILE NAME(\GmailTestData.xlsx)
+
+07:12:34.777 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:12:34.777 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.778 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:12:34.778 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.778 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:12:34.778 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:12:34.778 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:12:34.778 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:12:34.779 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\TestData\GmailTestData.xlsx) SPECIFIED
+07:12:34.779 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:12:34.779 INFO  utilities.Excel -createWorkBookInstance -INTEND TO CREATE AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:12:34.780 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:34.780 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:12:34.780 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:36.114 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN INSTANCE OF XSSFWORKBOOK CLASS
+07:12:36.114 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+07:12:36.114 INFO  utilities.Excel -getToFile -SUCCESSFULLY READ THE EXCEL FILE(\GmailTestData.xlsx)
+07:12:36.114 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:12:36.115 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:12:36.115 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:12:36.115 INFO  utilities.Excel -sheetPresent -INTEND TO VERIFY WHETHER THE SPECIFIED EXCEL SHEET IS PRESENT OR NOT
+07:12:36.118 INFO  utilities.Excel -sheetPresent -(TestData) IS PRESENT
+07:12:36.119 INFO  utilities.Excel -sheetPresent -SUCCESSFULLY VERIFIED WHETHER THE EXCEL SHEET(TestData) IS PRESENT OR NOT
+07:12:36.119 INFO  utilities.Excel -getToSheet -SUCCESSFULLY READ THE EXCEL SHEET(TestData)
+07:12:36.121 INFO  utilities.Excel -getCellValue -INTEND TO READ THE CELL VALUE
+07:12:36.150 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:36.151 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:12:36.151 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:12:36.168 INFO  utilities.Excel -getCellValue -SUCCESSFULLY CREATED AN INSTANCE OF XSSFFORMULAEVALUATOR
+07:12:36.187 INFO  utilities.Excel -getCellValue -SUCCESSFULLY READ THE CELL VALUE(userName~9849530029
+password~satish@123)
+07:12:36.187 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -SUCCESSFULLY READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY FROM THE EXCEL SHEET(TestData) IN THE EXCEL FILE(\GmailTestData.xlsx) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\TestData)
+07:12:36.188 INFO  utilities.DataProviderRepository -dataProviderMethod -SUCCESSFULLY READ THE TEST DATA FOR (public void com.flipkart.testScripts.FlipKartTestCase.FlipKart_TC1(java.lang.String) throws java.lang.InterruptedException,com.flipkart.utilities.MyOwnException) SECURITY TYPE USING DATAPROVIDER FROM EXCEL WORKBOOK
+07:12:36.203 INFO  testScripts.FlipKartTestCase -FlipKart_TC1 -METHOD(IU_TC1) EXECUTION STARTED SUCCESSFULLY
+07:12:36.204 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTION STARTED SUCCESSFULLY
+07:12:36.204 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTION STARTED SUCCESSFULLY
+07:12:36.259 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTED SUCCESSFULLY
+07:12:36.259 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTED SUCCESSFULLY
+07:12:36.260 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:12:36.260 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:12:36.260 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:12:36.261 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:12:36.265 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(HealthChoice_Testing) IN EXTENT REPORT
+07:12:36.266 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:12:36.317 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:12:36.317 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:12:36.385 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:12:46.389 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -Initiated Chrome session
+07:12:49.758 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:13:01.615 INFO  pageObjects.FlipKartLoginPage -login -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:13:06.688 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:13:07.495 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:07.496 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:07.496 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:07.568 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (90) SECONDS
+07:13:07.595 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:13:07.596 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:13:07.644 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED
+07:13:07.660 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS DISPLAYED OR NOT
+07:13:07.660 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:13:07.708 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED
+07:13:07.723 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input]) IS ENABLED OR NOT
+07:13:07.723 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:07.724 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:07.724 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:08.031 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(9849530029) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input])
+07:13:08.032 INFO  methods.MyWebElement -enterText -INTEND TO ENTER TEXT INSIDE SPECIFIED WEBELEMENT
+07:13:08.032 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:13:08.095 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED
+07:13:08.110 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS DISPLAYED OR NOT
+07:13:08.110 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:13:08.174 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED
+07:13:08.192 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input]) IS ENABLED OR NOT
+07:13:08.192 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:08.192 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:08.193 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:08.675 INFO  methods.MyWebElement -enterText -SUCCESSFULLY ENTERED THE TEXT(satish@123) INSIDE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: /html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input])
+07:13:08.675 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:13:09.780 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:13:09.781 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:13:09.781 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:09.781 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:09.781 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:09.781 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:09.782 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:09.782 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:09.782 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:09.783 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:09.783 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:09.783 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:13:09.783 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\1_HelahChoiceLogin_Screen.png) IS PRESENT
+07:13:09.783 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:13:09.794 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(INFO) WITH DESCRIPTION(Login To Health Choice is initiated successfully) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\1_HelahChoiceLogin_Screen.png) IN EXTENT REPORT
+07:13:14.942 INFO  pageObjects.FlipKartLoginPage -login -METHOD(login) EXECUTED SUCCESSFULLY
+07:13:14.943 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:13:17.233 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:13:17.233 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:13:17.234 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:17.234 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:17.234 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:17.234 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:17.234 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:17.234 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:17.234 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:17.235 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:17.235 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:17.235 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:13:17.235 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\2_HealthChoiceHomePage.png) IS PRESENT
+07:13:17.235 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:13:17.238 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(PASS) WITH DESCRIPTION(Successfully logged into Health Choice) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\2_HealthChoiceHomePage.png) IN EXTENT REPORT
+07:13:17.238 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTED SUCCESSFULLY
+07:13:17.238 INFO  pageObjects.FlipKartWorkFlow -SelectMobile -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:13:17.264 INFO  pageObjects.FlipKartHomePage -SelectMobile -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:13:17.264 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:13:17.264 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:13:17.504 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS DISPLAYED
+07:13:17.520 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS DISPLAYED OR NOT
+07:13:17.521 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:13:17.581 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS ENABLED
+07:13:17.599 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a]) IS ENABLED OR NOT
+07:13:18.089 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/a])
+07:13:18.090 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:13:18.090 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:18.090 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:18.090 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:18.422 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (60) SECONDS
+07:13:18.422 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:13:18.422 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:13:18.551 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS DISPLAYED
+07:13:18.577 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS DISPLAYED OR NOT
+07:13:18.577 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:13:18.708 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS ENABLED
+07:13:18.743 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a]) IS ENABLED OR NOT
+07:13:19.086 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/header/div[3]/ul/li[1]/ul/li/ul/li[1]/ul/li[6]/a])
+07:13:19.086 INFO  methods.MyWait -until -INTEND TO PAUSE THE EXECUTION EXPLICITLY
+07:13:19.086 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:19.086 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:19.087 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:20.111 INFO  methods.MyWait -until -PAUSED THE EXECUTION EXPLICITLY UNTIL (ELEMENT_VISIBLE) FOR (60) SECONDS
+07:13:20.112 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:13:20.112 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:13:20.157 INFO  methods.MyWebElement -isDisplayedOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS DISPLAYED
+07:13:20.172 INFO  methods.MyWebElement -isDisplayedOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS DISPLAYED OR NOT
+07:13:20.172 INFO  methods.MyWebElement -isEnabledOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS ENABLED OR NOT
+07:13:20.217 INFO  methods.MyWebElement -isEnabledOrNot -WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS ENABLED
+07:13:20.232 INFO  methods.MyWebElement -isEnabledOrNot -SUCCESSFULLY VERIFIED WETHER THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a]) IS ENABLED OR NOT
+07:13:20.477 INFO  methods.MyWebElement -clickOn -SUCCESSFULLY CLICKED THE SPECIFIED WEBELEMENT([[ChromeDriver: chrome on XP (bdbf651cb71577c6bb228f08fdc15988)] -> xpath: //*[@id='container']/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/a])
+07:13:25.487 INFO  pageObjects.FlipKartHomePage -SelectMobile -METHOD(login) EXECUTED SUCCESSFULLY
+07:13:25.488 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:13:26.143 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:13:26.143 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:13:26.143 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:26.143 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:13:26.144 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:13:26.145 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:13:26.145 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\2_HealthChoiceHomePage.png) IS PRESENT
+07:13:26.145 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:13:26.145 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(PASS) WITH DESCRIPTION(Successfully logged into Health Choice) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\2_HealthChoiceHomePage.png) IN EXTENT REPORT
+07:13:26.145 INFO  pageObjects.FlipKartWorkFlow -SelectMobile -WORKFLOW(newTrackerListingProcess) EXECUTED SUCCESSFULLY
+07:13:26.146 INFO  pageObjects.FlipKartWorkFlow -AddToCart -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:13:26.506 INFO  pageObjects.FlipKartGotoCartPage -AddToCart -METHOD(login) EXECUTION STARTED SUCCESSFULLY
+07:13:26.812 INFO  methods.MyWebElement -clickOn -INTEND TO CLICK SPECIFIED WEBELEMENT
+07:13:26.812 INFO  methods.MyWebElement -isDisplayedOrNot -INTEND TO VERIFY WHETHER SPECIFIED WEBELEMENT IS DISPLAYED OR NOT
+07:13:47.150 ERROR methods.MyWebElement -isDisplayedOrNot -UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+07:14:07.280 ERROR methods.MyWebElement -clickOn -UNABLE TO CLICK ON SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button')
+UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+
+07:14:17.308 ERROR pageObjects.FlipKartGotoCartPage -AddToCart -UNABLE TO CLICK ON SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button')
+UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+
+
+07:14:17.309 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:14:17.309 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:17.309 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:17.309 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:17.310 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:17.310 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:17.310 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:17.311 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>Login To ePortal Is Not Successful</b></font><br />UNABLE TO CLICK ON SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button')
+UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+
+<br />) IN EXTENT REPORT
+07:14:17.311 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:14:17.879 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:14:17.879 ERROR pageObjects.FlipKartWorkFlow -AddToCart -UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+UNABLE TO CLICK ON SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button')
+UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+
+
+
+07:14:17.880 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:14:17.880 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:17.880 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:17.880 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:17.880 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:17.880 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:17.881 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:17.881 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+UNABLE TO CLICK ON SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button')
+UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+
+
+<br />) IN EXTENT REPORT
+07:14:17.881 ERROR testScripts.FlipKartTestCase -FlipKart_TC1 -UNABLE TO INITIATE THE login PROCESS 
+UNABLE TO LOGIN INTO THE LIMA APPLICATION FROM THE METHOD login
+UNABLE TO CLICK ON SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button')
+UNABLE TO CHECK WHETHER THE SPECIFIED WEBELEMENT(Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button') IS DISPLAYED OR NOT
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SSS\AppData\Local\Temp\scoped_dir4740_8170}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bdbf651cb71577c6bb228f08fdc15988
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/li[1]/button}
+
+
+
+
+07:14:17.928 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:14:17.928 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:14:18.313 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTED SUCCESSFULLY
+07:14:18.313 INFO  utilities.Report -logTestCaseStatusWithSnapShot -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION AND SNAPSHOT IN EXTENT REPORT
+07:14:18.313 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:18.314 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:18.314 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:18.315 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:18.315 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:18.315 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:18.315 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:14:18.315 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:14:18.315 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:14:18.316 INFO  accelarators.Base -filePresent -INTENDED TO CHECK IF THE SNAPSHOT FILE IS PRESENT
+07:14:18.316 INFO  accelarators.Base -filePresent -FILE(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\1_Login Failed.png) IS PRESENT
+07:14:18.316 INFO  accelarators.Base -filePresent -SUCCESSFULLY CHECKED IF THE SNAPSHOT FILE IS PRESENT
+07:14:18.316 INFO  utilities.Report -logTestCaseStatusWithSnapShot -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(Listing Process And IPO Process Is Not Successful) AND SNAPSHOT(D:\WorkspaceProject\FlipKart\Results\_2018-07-20_07_12_34_146\1_Login Failed.png) IN EXTENT REPORT
+07:14:18.317 INFO  utilities.Report -writeContents -INTEND TO WRITE ALL THE CONENTS INTO EXTENT REPORT
+07:14:18.958 INFO  utilities.Report -writeContents -SUCCESSFULY WROTE ALL THE CONENTS INTO EXTENT REPORT
+07:14:18.958 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTED SUCCESSFULLY
+07:14:18.959 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:14:18.959 INFO  accelarators.Base -close -End of Executing after class stuff
+07:14:18.959 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+08:02:59.797 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+08:02:59.838 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+08:02:59.838 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:02:59.838 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:02:59.839 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:02:59.839 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:02:59.839 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+08:02:59.839 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:02:59.839 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:02:59.840 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+08:02:59.840 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:02:59.840 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:02:59.840 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:02:59.841 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:02:59.841 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+08:02:59.843 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+08:02:59.843 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+08:02:59.843 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+08:02:59.844 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\config.properties) SPECIFIED
+08:02:59.844 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+08:02:59.845 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+08:02:59.845 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+08:02:59.845 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+08:02:59.845 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+08:02:59.846 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+08:02:59.846 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+08:02:59.847 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\)
+08:02:59.848 INFO  accelarators.Base -setup -creating folders for screen shots
+08:02:59.874 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+08:02:59.875 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+08:02:59.875 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:02:59.875 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:02:59.875 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:02:59.875 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:02:59.876 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(FlipKart.html)
+08:02:59.876 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:02:59.876 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:02:59.876 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(FlipKart.html)
+
+08:02:59.876 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:02:59.876 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:02:59.877 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:02:59.877 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:02:59.877 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+08:03:00.210 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(FlipKart.html)
+08:03:00.210 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+08:03:00.210 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+08:03:00.211 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+08:03:00.211 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+08:03:00.212 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+08:03:00.212 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+08:03:00.212 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(FlipKart.html)
+08:03:00.212 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+08:03:00.263 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+08:03:00.263 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+08:03:00.806 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+08:03:00.806 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(FlipKart.html) AND APPEND STATUS(false)
+08:03:00.806 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:03:00.807 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7) IN EXTENT REPORT
+08:03:00.807 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:03:00.808 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : 1.8) IN EXTENT REPORT
+08:03:00.808 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:03:00.808 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : 3.4) IN EXTENT REPORT
+08:03:00.808 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+08:03:00.833 INFO  utilities.DataProviderRepository -dataProviderMethod -INTEND TO READ THE TEST DATA USING DATAPROVIDER FROM EXCEL WORKBOOK
+08:03:00.836 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -INTEND TO READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY
+08:03:00.836 INFO  utilities.Excel -getToSheet -INTEND TO READ THE SPECIFIED EXCEL SHEET
+08:03:00.837 INFO  utilities.Excel -getToFile -INTEND TO READ THE SPECIFIED EXCEL FILE
+08:03:00.837 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:00.837 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:00.837 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:00.837 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:03:00.837 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(\GmailTestData.xlsx)
+08:03:00.838 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:03:00.838 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:03:00.838 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.xlsx) FROM THE FILE NAME(\GmailTestData.xlsx)
+
+08:03:00.838 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:03:00.838 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:03:00.838 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:03:00.839 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:03:00.839 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+08:03:00.839 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+08:03:00.839 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+08:03:00.840 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+08:03:00.840 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(D:\WorkspaceProject\FlipKart\TestData\GmailTestData.xlsx) SPECIFIED
+08:03:00.840 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+08:03:00.841 INFO  utilities.Excel -createWorkBookInstance -INTEND TO CREATE AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+08:03:00.841 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:03:00.841 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:03:00.841 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:03:03.055 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN INSTANCE OF XSSFWORKBOOK CLASS
+08:03:03.056 INFO  utilities.Excel -createWorkBookInstance -SUCCESSFULLY CREATED AN WORKBOOK INSTANCE BASED ON THE EXCEL FILE FORMAT
+08:03:03.056 INFO  utilities.Excel -getToFile -SUCCESSFULLY READ THE EXCEL FILE(\GmailTestData.xlsx)
+08:03:03.056 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:03.056 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:03.056 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:03.057 INFO  utilities.Excel -sheetPresent -INTEND TO VERIFY WHETHER THE SPECIFIED EXCEL SHEET IS PRESENT OR NOT
+08:03:03.070 INFO  utilities.Excel -sheetPresent -(TestData) IS PRESENT
+08:03:03.070 INFO  utilities.Excel -sheetPresent -SUCCESSFULLY VERIFIED WHETHER THE EXCEL SHEET(TestData) IS PRESENT OR NOT
+08:03:03.071 INFO  utilities.Excel -getToSheet -SUCCESSFULLY READ THE EXCEL SHEET(TestData)
+08:03:03.078 INFO  utilities.Excel -getCellValue -INTEND TO READ THE CELL VALUE
+08:03:03.092 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:03:03.093 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:03:03.093 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:03:03.131 INFO  utilities.Excel -getCellValue -SUCCESSFULLY CREATED AN INSTANCE OF XSSFFORMULAEVALUATOR
+08:03:03.146 INFO  utilities.Excel -getCellValue -SUCCESSFULLY READ THE CELL VALUE(userName~9849530029
+password~satish@123)
+08:03:03.147 INFO  utilities.Excel -getTestDataAsTwoDimesionalObjectArray -SUCCESSFULLY READ THE TEST DATA AS TWO DIMENSIONAL OBJECT ARRAY FROM THE EXCEL SHEET(TestData) IN THE EXCEL FILE(\GmailTestData.xlsx) UNDER THE LOCATION(D:\WorkspaceProject\FlipKart\TestData)
+08:03:03.148 INFO  utilities.DataProviderRepository -dataProviderMethod -SUCCESSFULLY READ THE TEST DATA FOR (public void com.flipkart.testScripts.FlipKartTestCase.FlipKart_TC1(java.lang.String) throws java.lang.InterruptedException,com.flipkart.utilities.MyOwnException) SECURITY TYPE USING DATAPROVIDER FROM EXCEL WORKBOOK
+08:03:03.183 INFO  testScripts.FlipKartTestCase -FlipKart_TC1 -METHOD(IU_TC1) EXECUTION STARTED SUCCESSFULLY
+08:03:03.184 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTION STARTED SUCCESSFULLY
+08:03:03.184 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTION STARTED SUCCESSFULLY
+08:03:03.238 INFO  accelarators.ActionDriver -splitToMap -METHOD(splitToMap) EXECUTED SUCCESSFULLY
+08:03:03.238 INFO  testScripts.FlipKartTestCase -RetrievingMapData -METHOD(RetrievingMapData) EXECUTED SUCCESSFULLY
+08:03:03.238 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+08:03:03.238 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:03.239 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:03.239 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:03.243 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(HealthChoice_Testing) IN EXTENT REPORT
+08:03:03.243 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+08:03:03.303 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+08:03:03.304 INFO  pageObjects.FlipKartWorkFlow -FlipKart_Login -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+08:03:03.360 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+08:03:22.995 ERROR pageObjects.FlipKartCommonPage -initiateBrowser -session not created exception
+from no such window: window was already closed
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16.17 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SSS-PC', ip: '192.168.43.125', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: driver.version: ChromeDriver
+08:03:22.995 INFO  pageObjects.FlipKartCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+08:03:22.996 ERROR pageObjects.FlipKartWorkFlow -FlipKart_Login -null
+08:03:22.996 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:03:22.996 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:22.996 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:22.996 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:22.996 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:22.997 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:22.997 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:23.005 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+08:03:23.006 ERROR testScripts.FlipKartTestCase -FlipKart_TC1 -UNABLE TO INITIATE THE login PROCESS 
+null
+
+08:03:23.038 INFO  testScripts.FlipKartTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+08:03:23.039 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+08:03:23.039 ERROR testScripts.FlipKartTestCase -afterExecutionOfEachTest -null
+08:03:23.039 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:03:23.039 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:23.039 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:23.039 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:23.040 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:03:23.040 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:03:23.040 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:03:23.042 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+08:03:23.047 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+08:03:23.047 INFO  accelarators.Base -close -End of Executing after class stuff
+08:03:23.047 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HealthChoice Suite" thread-count="5" parallel="tests">
+ <test name="chromeTest">
+ <parameter name="browser" value="chrome" />
+ <classes>  
+ <class name="com.flipkart.testScripts.MultiBrowserTestCase" /> 
+ <class name="com.flipkart.testScripts.MultiBrowserTestCase2" />
+ <class name="com.flipkart.testScripts.MultiBrowserTestCase3" />
+ </classes> 
+ </test> 
+ <test name="ieTest">
+ <parameter name="browser" value="ie" />
+ <classes>  
+ <class name="com.flipkart.testScripts.MultiBrowserTestCase" />
+ <class name="com.flipkart.testScripts.MultiBrowserTestCase2" />
+ <class name="com.flipkart.testScripts.MultiBrowserTestCase3" /> 
+ </classes> 
+ </test>  
+</suite> <!-- Suite -->
+
+
+ 

@@ -1,0 +1,1 @@
+java -cp D:\WorkspaceProject\FlipKart\lib\*;D:\WorkspaceProject\FlipKart\bin\ org.testng.TestNG testNg.xml

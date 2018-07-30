@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [HealthChoice Suite]" parallel="classes">
+  <test thread-count="3" name="chromeTest(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.flipkart.testScripts.MultiBrowserTestCase3">
+        <methods>
+          <include name="setup"/>
+          <include name="afterExecutionOfEachTest"/>
+          <include name="FlipKart_TC1" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.testScripts.MultiBrowserTestCase3 -->
+      <class name="com.flipkart.testScripts.MultiBrowserTestCase2">
+        <methods>
+          <include name="setup"/>
+          <include name="FlipKart_TC1" invocation-numbers="0"/>
+          <include name="afterExecutionOfEachTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.testScripts.MultiBrowserTestCase2 -->
+      <class name="com.flipkart.testScripts.MultiBrowserTestCase">
+        <methods>
+          <include name="FlipKart_TC1" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterExecutionOfEachTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.testScripts.MultiBrowserTestCase -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="3" name="ieTest(failed)" parallel="classes">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.flipkart.testScripts.MultiBrowserTestCase3">
+        <methods>
+          <include name="setup"/>
+          <include name="afterExecutionOfEachTest"/>
+          <include name="FlipKart_TC1" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.testScripts.MultiBrowserTestCase3 -->
+      <class name="com.flipkart.testScripts.MultiBrowserTestCase2">
+        <methods>
+          <include name="setup"/>
+          <include name="FlipKart_TC1" invocation-numbers="0"/>
+          <include name="afterExecutionOfEachTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.testScripts.MultiBrowserTestCase2 -->
+      <class name="com.flipkart.testScripts.MultiBrowserTestCase">
+        <methods>
+          <include name="FlipKart_TC1" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterExecutionOfEachTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.testScripts.MultiBrowserTestCase -->
+    </classes>
+  </test> <!-- ieTest(failed) -->
+</suite> <!-- Failed suite [HealthChoice Suite] -->
